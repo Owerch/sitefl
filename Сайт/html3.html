@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О нас - Мыльная Лавка</title>
+    <link rel="stylesheet" href="css2.css" />
+    <link rel="stylesheet" href="css3.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <i class="fas fa-soap"></i>
+            <img
+              class="img-lg"
+              src="./img3/vintage-banner-or-frame-with-swirls-handwritten-retro-text-lettering-natural-soap-isolated-sticker-or-packaging-label-vector.jpg"
+              alt=""
+            />
+            <span>МилоМыло</span>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="about.html" class="active">О нас</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header-actions"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="container">
+      <!-- Блок с общей информацией и разбросанными картинками -->
+      <section class="about-section">
+        <div class="about-content">
+          <h1>О нашей Мыльной Лавке</h1>
+          <div class="about-text">
+            <p>
+              Мы - команда энтузиастов, которые верят в силу натуральной
+              косметики. Наша история началась 5 лет назад в маленькой
+              мастерской, где мы создали первое мыло ручной работы.
+            </p>
+            <p>
+              Сегодня мы предлагаем более 100 видов натурального мыла,
+              созданного с любовью и заботой о вашей коже. Все наши продукты
+              изготавливаются из натуральных компонентов без использования
+              химических добавок.
+            </p>
+            <p>
+              Мы тщательно отбираем ингредиенты и следуем традиционным рецептам,
+              сочетая их с современными знаниями о косметологии.
+            </p>
+          </div>
+
+          <!-- Разбросанные картинки -->
+          <div class="scattered-images">
+            <img
+              src="images/about/1.jpg"
+              alt="Процесс изготовления мыла"
+              class="image-1"
+            />
+            <img
+              src="images/about/2.jpg"
+              alt="Натуральные ингредиенты"
+              class="image-2"
+            />
+            <img src="images/about/3.jpg" alt="Готовое мыло" class="image-3" />
+            <img src="images/about/4.jpg" alt="Упаковка мыла" class="image-4" />
+            <img
+              src="images/about/5.jpg"
+              alt="Наша мастерская"
+              class="image-5"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Кнопка перехода в каталог -->
+      <section class="catalog-cta">
+        <div class="cta-content">
+          <h2>Готовы выбрать своё идеальное мыло?</h2>
+          <p>
+            В нашем каталоге вы найдете более 100 видов натурального мыла для
+            любого типа кожи и на любой случай
+          </p>
+          <a href="index.html" class="btn-catalog">Перейти в каталог</a>
+        </div>
+      </section>
+
+      <!-- Слайдер с гайдом по изготовлению мыла -->
+      <section class="guide-section">
+        <h2>Как мы создаем наше мыло</h2>
+        <p class="section-subtitle">
+          5 простых шагов к созданию идеального мыла ручной работы
+        </p>
+
+        <div class="guide-slider-container">
+          <div class="guide-slider" id="guideSlider">
+            <!-- Слайды будут добавлены через JS -->
+          </div>
+          <button class="slider-btn prev" data-slider="guideSlider">
+            &#10094;
+          </button>
+          <button class="slider-btn next" data-slider="guideSlider">
+            &#10095;
+          </button>
+
+          <div class="slider-dots" id="guideDots">
+            <!-- Точки будут добавлены через JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Блок с преимуществами -->
+      <section class="advantages-section">
+        <h2>Почему выбирают именно нас</h2>
+        <div class="advantages-grid">
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3>100% натуральные компоненты</h3>
+            <p>
+              Мы используем только природные ингредиенты без химических добавок
+              и консервантов
+            </p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Создано с любовью</h3>
+            <p>
+              Каждое мыло изготавливается вручную с заботой о вашей коже и
+              окружающей среде
+            </p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>Гарантия качества</h3>
+            <p>
+              Все наши продукты проходят строгий контроль качества перед
+              отправкой клиентам
+            </p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-shipping-fast"></i>
+            </div>
+            <h3>Быстрая доставка</h3>
+            <p>
+              Отправляем заказы в день оформления. Доставка по всей России от 2
+              дней
+            </p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-hand-holding-usd"></i>
+            </div>
+            <h3>Доступные цены</h3>
+            <p>
+              Прямые поставки сырья позволяют предлагать качественное мыло по
+              reasonable ценам
+            </p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Поддержка 24/7</h3>
+            <p>
+              Наша служба поддержки всегда готова помочь с выбором и ответить на
+              вопросы
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Мыльная Лавка</h3>
+            <p>
+              Натуральное мыло ручной работы с любовью и заботой о вашей коже.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Контакты</h4>
+            <p>г. Москва, ул. Мыльная, 15</p>
+            <p>+7 (495) 123-45-67</p>
+            <p>info@soapstore.ru</p>
+          </div>
+          <div class="footer-section">
+            <h4>Часы работы</h4>
+            <p>Пн-Пт: 9:00 - 21:00</p>
+            <p>Сб-Вс: 10:00 - 20:00</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Мыльная Лавка. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+    <script src="js3.js"></script>
+  </body>
+</html>
